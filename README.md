@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Blog-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **Full Stack** Blog App
 
-## Available Scripts
+In this app we have utilized **React for Front End** along with **NodeJS Mongo and Express** for Backend purpose.
 
-In the project directory, you can run:
+This app have following features - 
 
-### `npm start`
+**User login and signup** using stateless **JWT authentication**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Blog creataion and deletion 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Role based authorization** 
 
-### `npm test`
+admin can Create and Delete Blog whereas 'user' can only Read the blog articles
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Steps to run the app - 
 
-### `npm run build`
+Start backend using command npx nodemon server.js (do not forget to install node modules)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Now similarly install node modules for frontend and run app using npm run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Common links:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+/signup - To register either as user or admin 
 
-### `npm run eject`
+/login - To login 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+/blog - To read blog with details including Blog Title, Blog Content, Author Name and created on date
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+/admin - This is admin dashboard that can be accessed by users by admin level access only. It can be used to create new blogs and delete existing blog from the database.
