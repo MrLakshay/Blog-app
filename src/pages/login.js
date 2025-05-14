@@ -15,7 +15,8 @@ const Login = () => {
     try {
       const res = await login(formData);
       localStorage.setItem('token', res.token);
-      navigate('/blogs');
+      localStorage.setItem('role', res.role);
+      navigate('/blog');
     } catch (err) {
       console.error(err.response.data.message);
     }
