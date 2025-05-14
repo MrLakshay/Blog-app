@@ -22,6 +22,11 @@ Now similarly install node modules for frontend and run app using npm run
 
 Common links:
 
+This website is live and running at https://blogesh.netlify.app/ 
+
+Enjoy the website soon I will be working on the frontend of the application as well  
+
+
 /signup - To register either as user or admin 
 
 /login - To login 
