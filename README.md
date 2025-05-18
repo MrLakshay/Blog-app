@@ -24,7 +24,16 @@ Common links:
 
 This website is live and running at https://blogesh.netlify.app/ 
 
-Enjoy the website soon I will be working on the frontend of the application as well  
+Enjoy the website 
+
+**Future updates**
+
+Good frontend of the application
+
+Add images and associate them with user and article (Profile image and optional article image).
+
+Implement lazy loading and debouncing
+
 
 
 /signup - To register either as user or admin 
